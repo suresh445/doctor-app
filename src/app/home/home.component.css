@@ -1,0 +1,38 @@
+.Home img
+{
+    width: 100%;
+    height: 590px;
+    object-position: center;
+    object-fit: cover;
+}
+
+
+.homeContent
+{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    transform: translate();
+}
+
+.homeContent h1
+{
+    color:#DE8F1F;
+    font-size: 40px;
+}
+.homeContent 
+{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:600px)
+{
+    .Home img
+    {
+        height: 700px;
+    }
+    .homeContent h1 
+    {
+        font-size: 40px;
+    }
+}

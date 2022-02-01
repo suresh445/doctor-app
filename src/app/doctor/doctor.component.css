@@ -1,0 +1,30 @@
+
+.login
+{
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.homeContent
+{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate();
+}
+.Patient img
+{
+    width: 100%;
+    height: 600px;
+    object-position: center;
+    object-fit: cover;
+}
+
+@media screen and (max-width:600px) 
+{
+    
+    .Patient
+    {
+        padding: 140px 30px;
+    }
+}
